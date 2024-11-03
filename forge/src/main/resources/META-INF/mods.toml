@@ -1,0 +1,42 @@
+modLoader="javafml"
+license="MIT"
+issueTrackerURL="https://github.com/TreyRuffy/ProjectAuroraMinecraftMod/issues"
+
+loaderVersion="[52,)"
+
+[[mods]]
+modId="project_aurora_minecraft_mod"
+version="${version}"
+displayName="Project Aurora Minecraft Mod"
+updateJSONURL="https://api.modrinth.com/updates/project-aurora-minecraft-mod/forge_updates.json"
+displayURL="https://modrinth.com/mod/project-aurora-minecraft-mod"
+logoFile="icon.png"
+authors="TreyRuffy"
+description='''
+Project Aurora Minecraft Mod for Minecraft Forge
+Game State Integration server designed for Aurora (but could be used by other applications).
+
+The creator would like to thank:
+- Wibble199 for originally creating the mod
+'''
+
+[[dependencies.project_aurora_minecraft_mod]]
+  modId="forge"
+  mandatory=true
+  ordering="NONE"
+  side="CLIENT"
+  versionRange="[52,)"
+
+[[dependencies.project_aurora_minecraft_mod]]
+modId="minecraft"
+mandatory=true
+ordering="NONE"
+side="CLIENT"
+versionRange="[1.21,)"
+
+[[dependencies.project_aurora_minecraft_mod]]
+modId="kotlinforforge"
+mandatory=true
+ordering="NONE"
+side="BOTH"
+versionRange="*"

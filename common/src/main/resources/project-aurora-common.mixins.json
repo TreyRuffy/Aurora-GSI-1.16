@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.treyruffy.projectaurora.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "TickMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

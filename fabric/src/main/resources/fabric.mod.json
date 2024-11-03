@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "project_aurora_minecraft_mod",
+  "version": "${version}",
+  "name": "ProjectAuroraMinecraftMod",
+  "description": "Game State Integration server designed for Aurora (but could be used by other applications).",
+  "icon": "icon.png",
+  "authors": [
+    "TreyRuffy",
+    "Previously: Wibble199"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/project-aurora-minecraft-mod",
+    "sources": "https://github.com/TreyRuffy/project-aurora-minecraft-mod.git",
+    "issues": "https://github.com/TreyRuffy/project-aurora-minecraft-mod/issues/"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.treyruffy.projectaurora.fabric.ProjectAuroraFabric"
+    ]
+  },
+  "mixins": [
+    "project-aurora-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.20.5"
+  }
+}
